@@ -1,6 +1,6 @@
 # zakMicroJs
 
-**A tiny JavaScript micro-library**
+**A simple JavaScript micro-library**
 
 **The sweet, juicy bits**
 - zakMicroJs is really tiny: 5KB, 2KB gzipped, small enough to stick inline on single page web apps, saving an extra HTTP request.
