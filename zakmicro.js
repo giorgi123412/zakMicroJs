@@ -43,7 +43,7 @@ let _ = ( () => {
 			return selector.style.cssText = element.toString();
 		}
 
-		// Add/Remove/classToggle Class
+		// Add/Remove/Toggle Class
 		const classAdd = () => {
 			return element.forEach(el => {
 				selector.classList.add(el);
