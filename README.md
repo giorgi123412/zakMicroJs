@@ -13,7 +13,7 @@
 Use CDN.
 
 ```bash
-https://cdnjs.org/zakmicro.js
+<script src="zak.min.js"></script>
 ```
 
 ## Usage
@@ -42,7 +42,7 @@ Hides matching elements.
 <!DOCTYPE html>
 <html>
 <head>
-<script src="zak-min.js"></script>
+<script src="zak.min.js"></script>
 </head>
 <body>
 <p>Foo</p>
@@ -60,7 +60,7 @@ Shows matching elements.
 <!DOCTYPE html>
 <html>
 <head>
-<script src="zak-min.js"></script>
+<script src="zak.min.js"></script>
 </head>
 <body>
 <p>Foo</p>
