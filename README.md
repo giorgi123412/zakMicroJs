@@ -10,8 +10,6 @@
 
 ## Installation
 
-Use CDN.
-
 ```bash
 <script src="zak.min.js"></script>
 ```
