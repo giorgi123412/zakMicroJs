@@ -43,7 +43,7 @@ Hides matching elements.
 <script src="zak.min.js"></script>
 </head>
 <body>
-<p>Foo</p>
+<p id="foo">Foo</p>
 <p>Bar</p>
 <script>
 	_.find("#foo", "hide"); // Hides element with id equal to "foo"
@@ -61,7 +61,7 @@ Shows matching elements.
 <script src="zak.min.js"></script>
 </head>
 <body>
-<p>Foo</p>
+<p  id="foo">Foo</p>
 <p>Bar</p>
 <script>
 	_.find("#foo", "show"); // Shows element with id equal to "foo"
