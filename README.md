@@ -73,7 +73,25 @@ Shows matching elements.
 
 Gets or optionally sets the CSS property for matching elements.
 
-
+```javascript
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.bold {font-weight:900}
+</style>
+<script src="chibi-min.js"></script>
+</head>
+<body>
+<p id="foo">Foo</p>
+<p class="bold">Bar</p>
+<script>
+	_.find('#foo', 'styleAdd', "color: green; font-size: 1rem;"); // sets multiple css element with id equal to "foo"
+	_.find('.bold', 'styleAdd', "color: red;"); // sets  all blod class color to red
+</script>
+</body>
+</html>
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
